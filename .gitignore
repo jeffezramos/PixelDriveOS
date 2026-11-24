@@ -1,0 +1,19 @@
+﻿# Chaves privadas de assinatura do sistema (NUNCA subir para o GitHub)
+scripts/keys/*.pk8
+scripts/keys/*.pem
+scripts/keys/*.jks
+scripts/keys/*.keystore
+
+# Dumps e firmwares pesados (hospedados no Google Drive 5TB)
+*.img
+*.bin
+update.zip
+dumps/
+
+# Android Studio / Windows
+.gradle/
+build/
+.idea/
+*.iml
+Thumbs.db
+desktop.ini
